@@ -1,0 +1,173 @@
+.Packages{
+    background: black;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+*{  
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Packages .container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 80px;
+}
+/* styling the cards */
+.Packages .card{
+    border-radius: 6px;
+    background: #263238;   
+    box-shadow:0 0 2px #263238, 0 0 4px #263238, 0 0 5px #263238;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    margin: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.Packages .card{
+    line-height: 3.5rem;
+}
+
+.Packages .card button{
+    color: white;
+    border: none;
+    background: black;
+    width: 250px;
+}
+.card button:hover{
+    box-shadow:0 0 10px black, 0 0 40px black, 0 0 80px black;
+}
+
+.card ul{
+    list-style: none;
+    margin-bottom: 40px;
+    /* margin-left:-50px; */
+}
+.card ul li{
+    text-align: center;
+}
+
+.card .icon{
+    font-size: 80px;
+}
+
+.card h4{
+    font-size: 24px;
+}
+.card h1{
+    font-size: 34px;
+}
+.card ul li{
+    line-height: 1.8rem;
+}
+
+ .card:first-child button{
+    background: dodgerblue;
+}
+.card:nth-child(2) button{
+    background: aqua;
+    color: black;
+}
+.card:last-child button{
+    background:#4f54f1;
+}
+.card:first-child .icon{
+    color: dodgerblue;
+}
+
+.card:nth-child(2) .icon{
+    color: aqua;
+}
+.card:last-child .icon{
+    color: #4f54f1;
+}
+/* Consultation form */
+.contactSpace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactSpace .newsletter{
+    font-size: clamp(30px, 5vw, 30px);
+    width: 30vw;
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+}
+form input{
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 8px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    width: 420px;
+}
+form button{
+    background: aqua;
+    border: 1px solid aqua;
+    color: black;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/* Responsivenes */
+@media screen and (max-width: 780px) {
+    
+
+    form{
+        max-width: 90vw;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    form input{
+        border-radius: 8px;
+        max-width: 90vw;
+    }
+    form button{
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    .package_img img{
+     max-width:400px!important;
+    }
+  }
+
+  @media  screen and (max-width: 600px) {
+    .Packages{
+        padding-top: 80px;
+    }
+    .Packages .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .Packages .card{
+        flex-basis: 100%;
+        margin: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contactSpace .newsletter{
+        width: 80vw;
+        text-align: center;
+    }
+    
+  }
+  

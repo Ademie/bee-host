@@ -1,0 +1,141 @@
+a{
+    text-decoration: none;
+}
+*{  
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    background:rgb(2, 2, 2);
+    display: flex;
+    min-height: 80px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+.navbar .leftNav{
+    flex-basis: 50%;
+    display: flex;
+    justify-self: flex-start;
+    margin-left: 100px;
+}
+.leftNav a{
+    color:aqua;
+    font-size: 24px;
+}
+.navbar .rightNav{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.rightNav a{
+    color: white;
+    font-size: 16px;
+    padding: 18px;
+    position: relative;
+}
+
+.rightNav a:hover{
+    color: aqua;  
+    transition: all .3s ease-in-out;  
+}
+
+.rightNav .menu{
+    display: none;
+}
+
+/* HIDE MOBILE MENU */
+#show{
+    width: 0;
+    display: none;
+}
+
+/* MEDIA QUERIES */
+/* show toggle and hide links */
+
+@media screen and (max-width:992px) {
+    .rightNav .links a{
+        display: none;
+    }
+    .rightNav .menu{
+        display: block;
+}
+/* MOBILE MENU */
+    #show {
+        height: 100%; 
+        width: 100%; 
+        position: fixed; 
+        z-index: 1; 
+        top: 0; 
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        padding-top: 140px;
+        display: block;
+      }
+      #show a{
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    #show .menu{
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        border: none;
+    }
+    #show .sign{
+        width: 60vw;
+    }  
+    .welcomeBtn{
+        display: none !important;
+    }
+
+      
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and below) */
+@media only screen and (max-width: 1200px) {
+    .leftNav{
+        margin-left: 50px!important;
+    }
+    .rightNav{
+        margin-right: 50px!important;
+        margin-left: -50px;
+    }
+    .rightNav .links a{
+        font-size: 90%;
+    }
+    .rightNav .links button{
+        font-size: 90%;
+        width: 70px;
+    }
+}

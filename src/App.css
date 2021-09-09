@@ -1,0 +1,147 @@
+/* global styling */
+
+*, *::before, *::after{  
+    margin: 0;
+    padding:0;
+    box-sizing: inherit!important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html{
+    box-sizing: border-box!important;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: black;
+}
+/* THE BUTTON */
+button{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.welcomeBtn:hover, .signup a, button:hover, .signup a:hover{
+    background:aqua;
+    color: black;
+    transition: ease-in-out;
+    border: 1px solid aqua;
+    box-shadow:0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+}
+.signup a{
+   border-radius: 4px;
+    box-shadow:none;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+/* Homepage */
+.main{
+    width: 100%;
+    position: relative;
+}
+.home{
+    background: black;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.home h1{
+        font-size: clamp(40px, 5vw, 60px);
+}
+.home p{
+    font-size: clamp(16px, 5vw, 18px);
+}
+.home .title, .home .text{
+    width: 40vw;
+    /* font-size: 28px; */
+    text-align: center;
+}
+.home .text{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/* THE BUTTON */
+
+.home button, .block button{
+    width: 200px;
+    height: 120%;
+    background:aqua;
+    color: black;
+    transition: ease-in-out;
+    border: 1px solid aqua;
+}
+.home{position: relative;}
+.main .signup{
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    right: 0;
+}
+.main .top{
+    left: 10px;
+    right: 50%;
+    top: 90%;
+    bottom:10%;
+    z-index: 10;
+    position: fixed;
+}
+.top button{
+    width: 50px;
+    padding: 0px;
+    border: 1p;
+}
+.signup a{
+    text-decoration: none;
+    color: black !important;
+    background: aqua!important;
+    height: 100px;
+    padding: 16px;
+}
+
+/* responsiveness */
+
+
+@media only screen and (max-width:780px) {
+    .home{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .home .title, .home .text{
+        width: 60vw;
+        text-align: center;
+    }      
+    .main .signup{
+        right: 140px;
+
+    }
+      
+}
+@media only screen and (max-width:720px) {
+    .home .title, .home .text{
+        width: 80vw;
+        text-align: center;
+    }
+    .main .signup{
+        position: fixed;
+        z-index: 99;
+        top: 50%;
+        right: 0;
+    }      
+      
+}

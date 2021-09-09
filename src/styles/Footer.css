@@ -1,0 +1,95 @@
+*{  
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer {
+  background: rgb(1, 20, 20);
+  margin-top: -30px;
+  color: white !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.footer a {
+  color: teal;
+  text-decoration: none;
+}
+.footer .upper .about,
+.footer .upper .quick-links,
+.footer .upper .legal,
+.footer .upper .partner {
+    flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.footer .upper .about{
+    flex-basis: 40%!important;
+    margin-right: 20px;
+}
+.footer .upper {
+  display: flex;
+  margin-bottom: 80px;
+}
+.footer .upper a{
+    line-height: 30px;
+}
+.footer .upper a:hover, .footer .lower a:hover{
+    color: aqua;
+}
+.footer .lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer .lower .socials{
+    margin-top: 20px;
+    font-size: 48px;
+}
+
+.socials .soc-icon{
+    padding: 8px;
+}
+.socials .soc-icon:hover{
+    color: black!important;
+    box-shadow:0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+    background: aqua!important;
+}
+
+/* Responsivenes */
+@media screen and (max-width: 992px) {
+    .footer .upper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+    }
+    .footer .upper .about,
+.footer .upper .quick-links,
+.footer .upper .legal,
+.footer .upper .partner {
+  flex-basis: 100%;
+  flex-direction: column;
+  text-align: left;
+  padding: 0px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding-left: 20px;
+}
+.footer .upper .about{
+  padding: 30px;
+  padding-bottom: 10px;
+}
+.footer .upper .about p{
+  margin-top: 10px;
+}
+  }
+  

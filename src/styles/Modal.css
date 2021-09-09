@@ -1,0 +1,124 @@
+*{  
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.modalBackground{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+
+}
+
+.modalContainer{
+    max-width: 80vw;
+    width: 500px;
+    height: 500px;
+    color: aqua;
+    border-radius: 12px;
+    background: rgb(1, 20, 20);  
+    box-shadow:0 0 2px rgb(109, 132, 132), 0 0 4px rgb(1, 41, 41), 0 0 5px rgb(1, 41, 41);
+    box-shadow:0 0 2px aqua, 0 0 4px aqua, 0 0 5px aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.modalContainer .closeBtn{
+    align-self: flex-end;
+}
+.closeBtn .close{
+    background: none;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.modalContainer form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.modalContainer form input{
+    max-width: 70vw;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 0px!important;
+    background: rgba(255, 255, 255, 0.245);
+    border: 0px;
+    border-left: 2px solid aqua;
+    outline: none;
+    color: white;
+}
+
+.modalContainer .title{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.modalContainer .body{
+    flex: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.modalContainer .foot{
+    flex: 20%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.foot button{
+    width: 150%;
+    height: 40px;
+    margin: 20px;
+    background: aqua;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.foot .cancel{
+    background: aqua;
+    color: black;
+}
+
+.cancel:hover{
+    background:aqua;
+    transition: ease-in-out;
+    border: 1px solid aqua;
+    box-shadow:0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+}
+
+/* ERROR FIELD IN FORM */
+.formError{
+    font-size: 10px;
+    text-align: left;
+    text-transform: capitalize;
+    
+}
+
+@media only screen and (max-width:780px) {
+      
+}
+@media only screen and (max-width:720px) {
+          
+      
+}
