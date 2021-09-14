@@ -65,7 +65,7 @@ const Modal = ({ closeModal }) => {
               <button className="cancel" type="reset">
                 Reset
               </button>
-              <button type="submit">Sign Up</button>
+              <button type="submit">SignUp</button>
             </div>
             <span id="botMsg" style={{textAlign:"center", fontSize:"12px"}}></span>
           </form>

@@ -22,8 +22,8 @@ function App() {
         <Route path="/" component={Blog} />
         <Route path="/" component={Faqs}/>
         <Footer/>
-        
-      <MessengerCutomerChat style={{maxWidth:"30px", background:"aqua"}}
+        hry
+      <MessengerCutomerChat style={{background:"aqua"}}
       pageId="213155580730598" appId="861192267848327"
       /> 
     </Router>
