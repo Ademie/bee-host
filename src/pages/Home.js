@@ -35,10 +35,10 @@ function Home() {
      {openModal && <Modal closeModal={setOpenModal}/>}
 
      {/* Back to top */}
-     <div className="top">
+     {/* <div className="top">
      <Link smooth to="#home"><button>Top</button></Link>
      </div>
-    </div>
+    </div> */}
 
   );
 }

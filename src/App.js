@@ -8,24 +8,24 @@ import Faqs from "./pages/Faqs";
 import Features from "./pages/Features";
 import Home from "./pages/Home";
 import Packages from "./pages/Packages";
-import MessengerCutomerChat from 'react-messenger-customer-chat'
-
+import MessengerCutomerChat from "react-messenger-customer-chat";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <Switch/>
-        <Route path="/" component={Home} />
-        <Route path="/" component={Features} />
-        <Route path="/" component={Packages} />
-        <Route path="/" component={Blog} />
-        <Route path="/" component={Faqs}/>
-        <Footer/>
-        hry
-      <MessengerCutomerChat style={{background:"aqua"}}
-      pageId="213155580730598" appId="861192267848327"
-      /> 
+      <Switch />
+      <Route path="/" component={Home} />
+      <Route path="/" component={Features} />
+      <Route path="/" component={Packages} />
+      <Route path="/" component={Blog} />
+      <Route path="/" component={Faqs} />
+      <Footer />
+      <MessengerCutomerChat
+        style={{ background: "rgb(54, 182, 182)" }}
+        pageId="213155580730598"
+        appId="861192267848327"
+      />
     </Router>
   );
 }
