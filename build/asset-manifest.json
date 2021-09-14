@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/beehost/static/css/main.81ace386.chunk.css",
+    "main.js": "/beehost/static/js/main.0315ac16.chunk.js",
+    "main.js.map": "/beehost/static/js/main.0315ac16.chunk.js.map",
+    "runtime-main.js": "/beehost/static/js/runtime-main.fe200ee4.js",
+    "runtime-main.js.map": "/beehost/static/js/runtime-main.fe200ee4.js.map",
+    "static/js/2.eb8a3172.chunk.js": "/beehost/static/js/2.eb8a3172.chunk.js",
+    "static/js/2.eb8a3172.chunk.js.map": "/beehost/static/js/2.eb8a3172.chunk.js.map",
+    "index.html": "/beehost/index.html",
+    "static/css/main.81ace386.chunk.css.map": "/beehost/static/css/main.81ace386.chunk.css.map",
+    "static/js/2.eb8a3172.chunk.js.LICENSE.txt": "/beehost/static/js/2.eb8a3172.chunk.js.LICENSE.txt",
+    "static/media/Apple.b641ec5b.jpg": "/beehost/static/media/Apple.b641ec5b.jpg",
+    "static/media/CardBot.e692d7e1.jpg": "/beehost/static/media/CardBot.e692d7e1.jpg",
+    "static/media/Google.84d8c52d.jpg": "/beehost/static/media/Google.84d8c52d.jpg",
+    "static/media/LOCUS.f44a27bd.jpg": "/beehost/static/media/LOCUS.f44a27bd.jpg",
+    "static/media/Notepad.62ee75f4.jpg": "/beehost/static/media/Notepad.62ee75f4.jpg",
+    "static/media/Wallet.0d234d7d.jpg": "/beehost/static/media/Wallet.0d234d7d.jpg",
+    "static/media/Watch.bc4e5e61.jpg": "/beehost/static/media/Watch.bc4e5e61.jpg",
+    "static/media/iPhone.80135618.jpg": "/beehost/static/media/iPhone.80135618.jpg",
+    "static/media/key.1b85e4d0.svg": "/beehost/static/media/key.1b85e4d0.svg",
+    "static/media/lock.a4a53938.svg": "/beehost/static/media/lock.a4a53938.svg",
+    "static/media/setting.520382d2.svg": "/beehost/static/media/setting.520382d2.svg",
+    "static/media/space-shuttle.4057eae0.svg": "/beehost/static/media/space-shuttle.4057eae0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe200ee4.js",
+    "static/js/2.eb8a3172.chunk.js",
+    "static/css/main.81ace386.chunk.css",
+    "static/js/main.0315ac16.chunk.js"
+  ]
+}
