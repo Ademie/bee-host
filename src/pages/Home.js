@@ -37,8 +37,8 @@ function Home() {
      {/* Back to top */}
      {/* <div className="top">
      <Link smooth to="#home"><button>Top</button></Link>
-     </div>
-    </div> */}
+     </div> */}
+    </div>
 
   );
 }
