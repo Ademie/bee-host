@@ -38,8 +38,8 @@ button{
 .signup a{
    border-radius: 4px;
     box-shadow:none;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
 }
 /* Homepage */
 .main{
@@ -85,8 +85,8 @@ button{
 .main .signup{
     position: fixed;
     z-index: 10;
-    top: 50%;
-    right: 0;
+    top: 40%;
+    left: 0;
 }
 .main .top{
     left: 10px;
