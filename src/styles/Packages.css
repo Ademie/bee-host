@@ -124,9 +124,20 @@ form button{
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
 }
-
+@media screen and (max-width: 1024px){
+ .Packages .container{
+     flex-wrap: wrap;
+ }   
+ .Packages .card{
+    flex-basis: 45%;
+    margin: 10px;
+}
+form{
+    margin-bottom: 80px;
+}
+}
 /* Responsivenes */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 750px) {
     
 
     form{

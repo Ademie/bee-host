@@ -61,12 +61,30 @@ img {
   height: 50px;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px){
+  .block_one,
+  .block_three,
+  .block_two {
+    flex-direction: row!important;
+    padding: 0px;
+    margin-bottom: 100px;
+  }
+  .block_two .block {
+    margin-left: 0px;
+    margin-right: 100px;
+  }
+  .block p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+}
+@media screen and (max-width: 750px) {
  
   .block_one,
   .block_three,
   .block_two {
-    flex-direction: column;
+    flex-direction: column!important;
     padding: 0px;
     margin-bottom: 100px;
   }

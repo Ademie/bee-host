@@ -29,7 +29,7 @@ function Home() {
 
       {/* SIGN UP BUTTON */}
       <div className="signup">
-        <a style={{cursor:"pointer"}}onClick={()=>setOpenModal(!openModal)}>SIGN UP</a>
+        <a style={{cursor:"pointer"}} onClick={()=>setOpenModal(!openModal)}>SIGN UP</a>
       </div>
       {/* display the Login modal */}
      {openModal && <Modal closeModal={setOpenModal}/>}

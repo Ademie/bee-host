@@ -60,9 +60,20 @@
     color: rgb(239, 255, 255);
 }
 /* Responsivenes */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px){
     #blog{
-        display: flex;
+        flex-wrap: wrap;
+    }
+    #blog .column{
+        flex-basis: 40%;
+        max-width: 80%!important;
+    }
+    .inputField input{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 750px) {
+    #blog{
         flex-direction: column;
         justify-content: center;
         align-items: center;

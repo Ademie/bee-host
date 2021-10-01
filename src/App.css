@@ -111,7 +111,12 @@ button{
 
 /* responsiveness */
 
-
+@media screen, (min-width: 1000px) and (max-width: 1024px){
+    
+    .main .signup{
+        right: 0px!important;
+    }
+}
 @media only screen and (max-width:780px) {
     .home{
         text-align: center;
